@@ -1,0 +1,42 @@
+@import "~quasar/src/css/variables";
+
+// 自定义的 sass 变量
+// color
+$heading-color: rgba(0, 0, 0, 0.85); // 标题色
+$text-color: rgba(0, 0, 0, 0.65); // 主文本色
+$text-color-secondary: rgba(0, 0, 0, 0.45); // 次文本色
+$disabled-color: rgba(0, 0, 0, 0.25); // 失效色
+$border-color-base: rgba(0, 0, 0, .06); // 边框色
+$background-color: rgba(25, 118, 210, 0.0618); // 背景颜色
+
+// style
+$login-card-box-shadow: 0 20px 80px 0 rgb(0 0 0 / 30%);
+$button-box-shadow: 0 12px 12px -11px rgb(13 180 175 / 72%);
+$button-hover-box-shadow: 0 12px 20px -11px rgb(13 180 175 / 72%);
+$card-box-shadow: 0 9px 28px 8px rgb(0 0 0 / 5%);
+
+// size
+$input-dense-height: 32px;
+$card-title-height: 55px;
+
+// 修改 quasar 的 scss 变量（参照了element和ant）
+$primary: #1890ff;
+$secondary: #FFFFFF;
+$accent: #9C27B0;
+$dark: $heading-color;
+$positive: #52c41a;
+$negative: #f5222d;
+$info: #909399;
+$warning: #faad14;
+
+$separator-color: $border-color-base;
+$table-border-color: $border-color-base;
+$table-hover-background: $background-color;
+$table-selected-background: $background-color;
+
+// 字体
+$tdf-font-size-xs: 10px;
+$tdf-font-size-sm: 12px;
+$tdf-font-size-md: 14px;
+$tdf-font-size-lg: 16px;
+$tdf-font-size-xl: 18px;

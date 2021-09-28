@@ -1,0 +1,3 @@
+<template>
+  <tdf-log />
+</template>

@@ -1,0 +1,3 @@
+<template>
+  <tdf-menu />
+</template>
